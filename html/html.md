@@ -417,9 +417,10 @@ start 属性规定有序列表的开始点。(start的属性值必须是数字)
 ```html
 <form></form>
 	属性 ： 
-		action = '接口地址'
-		method = 'get / post'
-		name = '表单名称'
+		action = '接口地址' : 行为动作 接一个后台传输的地址
+		method = 'get / post' :与后台交互的方式 提交当前表单的方式 get/post
+            - get携带参数 post隐藏地址栏中的参数
+		name = '表单名称' : 表单框的名字
 ```
 
 #### 2 ： 表单控件
